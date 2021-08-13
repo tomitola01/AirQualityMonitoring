@@ -13,17 +13,17 @@
 #include <Adafruit_SSD1306.h>
 
 //Network credentials
-const char* ssid = "VM7869522";
-const char* password = "c3kRdjsjjsyp";
+const char* ssid = //enter network SSID;
+const char* password = //password for SSID;
 
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 0;
 const int   daylightOffset_sec = 3600;
 
-String openWeatherMapApiKey = "17510e8649356ff5656d27f5613ff97b";
+String openWeatherMapApiKey = //write free OpenWeatherMap API key here;
 
-String city = "Belfast";
-String countryCode = "GB";
+String city = //place town/city here
+String countryCode = //place country code here
 
 String jsonBuffer;
 
