@@ -16,6 +16,9 @@
 const char* ssid = //enter network SSID;
 const char* password = //password for SSID;
 
+//Used to display correct time depending on timezone. Default set to BST.
+//Change gmtOffset_sec to desired timezone difference in seconds
+//Change daylightOffset_sec if necessary
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 0;
 const int   daylightOffset_sec = 3600;
