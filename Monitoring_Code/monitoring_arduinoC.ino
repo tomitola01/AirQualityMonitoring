@@ -1,3 +1,8 @@
+/*
+  Code for air quality monitoring system.
+  Code heavily adapted using guides from https://randomnerdtutorials.com/projects-esp32/
+*/
+
 //libraries included
 #include <Wire.h>
 #include <SPI.h>
