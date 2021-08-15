@@ -7,9 +7,8 @@ Monitor_Fusion360.png is a model of the final product designed in Fusion 360 by 
 \
 Also included is the HTML file (monitoring_webserver.html) to build the web server with the ESP32. <br />
 To do build the server: 
-1. Place monitoring_arduinoC.ino in an Arduino sketch folder
-2. Create a new folder in the created Arduino sketch folder and name it "data"
-3. Place monitoring_webserver.html in the "data" folder
-4. Upload the sketch to the ESP32 and run it
-5. Open the serial monitor and use obtain the ESP32s IP address
-6. Enter IP address into web browser 
+1. Download the Monitoring_Code folder
+2. Open the project using Ardunio
+3. Upload the sketch to the ESP32 and run it
+4. Open the serial monitor and use obtain the ESP32's IP address
+5. Enter IP address into web browser 
