@@ -6,7 +6,7 @@ The monitor_pcb.pdf includes a layout of Printed Circuit Board that would be use
 Monitor_Fusion360.png is a model of the final product designed in Fusion 360 by another team member, that I assisted in designing. <br />
 \
 Also included is the HTML file (monitoring_webserver.html) to build the web server with the ESP32. <br />
-To do build the server: 
+To build the server: 
 1. Download the Monitoring_Code folder
 2. Open the project using Ardunio
 3. Upload the sketch to the ESP32 and run it
