@@ -1,9 +1,10 @@
 # Air Quality Monitoring System
 This repository includes the Arduino C code (monitoring_arduinoC.ino) for the air quality monitoring system. To be used with the ESP32 microcontroller, a BME680 sensor, a push button for input, and an Adafruit 128x32 OLED. <br />
 \
-A JPG (Monitoring_Operation.jpg) of the breadboard prototype working on an Adafruit 128x32 shows an example of the system operating normally. <br />
-The AirQuality_PCB.pdf includes a layout of Printed Circuit Board that would be used in the final product. <br />
-render.png and top render.png is a model of the product designed in Fusion 360. <br />
+![Fusion 360 design of the AQM housing](./CAD/aqm_housing.png)
+![breadboard prototype working on an Adafruit 128x32 shows an example of the system operating normally](./monitoring_operation.jpg)
+The circuit schematics and PCB for the system can be found in the circuit_files folder. <br />
+The CAD folder contains the 3D design of the monitoring system housing. Fusion 360 is needed to open the .fz3 file. <br />
 \
 Also included is the HTML file (monitoring_webserver.html) to build the web server with the ESP32. <br />
 To build the server: 
